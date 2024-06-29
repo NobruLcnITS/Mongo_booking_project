@@ -1,0 +1,804 @@
+
+[
+  {
+      "_id": "649f1d78c24e1d8a6c8d0f1c",
+      "nome": "Vasco Live 2024",
+      "artista": "Vasco Rossi",
+      "data": {"$date":"2024-06-20T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Autodromo Enzo e Dino Ferrari, Imola",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [11.713133, 44.344576]
+          }
+        },
+      
+      "biglietti_disponibili": [1000, 2000, 5000, 10000],
+      "prezzo_biglietti": [150.00, 100.00, 80.00, 60.00],
+      "genere": "Rock"
+    },
+
+  {
+      "_id": "649f1d78c24e1d8a6c8d0f2a",
+      "nome": "Ultimo Stadi 2024",
+      "artista": "Ultimo",
+      "data": {"$date":"2024-07-05T00:00:00+02:00"}, 
+      "luogo": {
+        "indirizzo": "Stadio Olimpico, Roma",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [12.454811, 41.933868]
+          }
+        },
+      "biglietti_disponibili": [500, 1000, 2000, 5000],
+      "prezzo_biglietti": [120.00, 90.00, 70.00, 50.00],
+      "genere": "Pop"
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f3b",
+    "nome": "Tiziano Ferro Tour 2024",
+    "artista": "Tiziano Ferro",
+    "data": {"$date":"2024-07-12T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Stadio San Siro, Milano",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [9.123954, 45.478214]
+        }
+      },
+    "biglietti_disponibili": [4000, 5000, 5500, 9000],
+    "prezzo_biglietti": [130.00, 100.00, 80.00, 60.00],
+    "genere": "Pop"
+  },
+
+  
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f4c",
+    "nome": "Salmo Summer Tour",
+    "artista": "Salmo",
+    "data": {"$date":"2024-08-02T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Arena della Regina, Cattolica",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [12.739444, 43.963611]
+        }
+      },
+    "biglietti_disponibili": [200, 500, 1000, 2000],
+    "prezzo_biglietti": [80.00, 60.00, 50.00, 35.00], 
+    "genere": "Rap"
+  },
+
+  
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f5d",
+    "nome": "Gianna Nannini Live 2024", 
+    "artista": "Gianna Nannini",
+    "data": {"$date":"2024-09-15T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Teatro Antico, Taormina",
+      "posizione" : {
+        "type": "Point",  
+        "coordinates": [15.292778, 37.851944]
+        }
+      },
+    "biglietti_disponibili": [300, 600, 1200],
+    "prezzo_biglietti": [100.00, 80.00, 60.00],
+    "genere": "Rock"
+  },
+
+  
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f6e",
+    "nome": "Elisa An Intimate Night",
+    "artista": "Elisa",  
+    "data": {"$date":"2024-10-10T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Teatro degli Arcimboldi, Milano",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [9.1898, 45.5039]  
+        }
+      },
+    "biglietti_disponibili": [100, 200, 500],
+    "prezzo_biglietti": [200.00, 150.00, 100.00],
+    "genere": ["Pop", "Rock"] 
+  },
+
+  
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f7f",
+    "nome": "Arctic Monkeys Live",
+    "artista": ["Arctic Monkeys"],
+    "data": {"$date":"2024-11-23T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Unipol Arena, Casalecchio di Reno",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [11.2776616, 44.4778505]
+        }
+      }, 
+    "biglietti_disponibili": [2000, 4000, 2800],
+    "prezzo_biglietti": [70.00, 60.00, 50.00],
+    "genere": "Rock"
+  },
+
+  
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f8a",  
+    "nome": "Marco Mengoni Live",
+    "artista": "Marco Mengoni",
+    "data": {"$date":"2024-12-01T00:00:00+02:00"}, 
+    "luogo": {
+      "indirizzo": "Kioene Arena, Padova",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [11.8742, 45.4067]
+        }
+      },
+    "biglietti_disponibili": [200, 400, 800, 1500],
+    "prezzo_biglietti": [90.00, 70.00, 60.00, 40.00], 
+    "genere": ["Pop", "Soul"]
+  },
+
+  
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f9b",
+    "nome": "Marracash Persona Tour",  
+    "artista": "Marracash",
+    "data": {"$date":"2024-12-15T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Mediolanum Forum, Assago",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [9.1206, 45.4078]
+        }
+      },
+    "biglietti_disponibili": [500, 1000, 2000, 4000],
+    "prezzo_biglietti": [70.00, 60.00, 50.00, 35.00],
+    "genere": "Rap"  
+  },
+
+
+  { 
+    "_id": "649f1d78c24e1d8a6c8d0f10",
+    "nome": "Laura Pausini World Tour 2024",
+    "artista": "Laura Pausini", 
+    "data": {"$date":"2024-05-12T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Pala Alpitour, Torino",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [7.6494, 45.0308]
+        }
+      },
+    "biglietti_disponibili": [400, 800, 1600, 3000],
+    "prezzo_biglietti": [120.00, 100.00, 80.00, 60.00],  
+    "genere": "Pop"
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f11",
+    "nome": "Afterhours Live 2024",
+    "artista": ["Afterhours"],
+    "data": {"$date":"2024-06-28T00:00:00+02:00"}, 
+    "luogo": {
+      "indirizzo": "Castello Scaligero, Villafranca",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [10.8453, 45.3478]
+        }  
+      },
+    "biglietti_disponibili": [300, 600, 1200],
+    "prezzo_biglietti": [50.00, 40.00, 30.00],
+    "genere": "Alternative Rock"
+  },
+
+  
+  {  
+    "_id": "649f1d78c24e1d8a6c8d0f12",
+    "nome": "Subsonica 8Tour",
+    "artista": ["Subsonica"],
+    "data": {"$date":"2024-07-20T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Parco della Musica, Roma",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [12.4695, 41.9289]
+        }
+      },
+    "biglietti_disponibili": [500, 1000, 2000],
+    "prezzo_biglietti": [60.00, 50.00, 40.00], 
+    "genere": ["Rock", "Elettronica"]
+  },
+
+  
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f13",
+    "nome": "Levante Caos In Teatro",
+    "artista": "Levante",
+    "data": {"$date":"2024-07-12T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Arena di Verona, Verona",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [10.9939, 45.4384]
+        }
+      },
+    "biglietti_disponibili": [200, 400, 800, 1500],  
+    "prezzo_biglietti": [100.00, 80.00, 60.00, 40.00],
+    "genere": "Pop"
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f14",
+    "nome": "Eros Ramazzotti World Tour Première",
+    "artista": "Eros Ramazzotti",
+    "data": {"$date":"2024-07-18T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Pala Sele, Eboli",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [15.0607, 40.6151]
+        }
+      },
+    "biglietti_disponibili": [500, 1000, 1500, 3000],
+    "prezzo_biglietti": [120.00, 100.00, 90.00, 70.00],
+    "genere": "Pop"
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f15",
+    "nome": "Giorgia Open Air 2024",
+    "artista": "Giorgia",
+    "data": {"$date":"2024-07-22T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Piazza Duomo, Lecce",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [18.1711, 40.3534]
+        }
+      },
+    "biglietti_disponibili": [200, 500, 1000],
+    "prezzo_biglietti": [70.00, 60.00, 50.00],
+    "genere": ["Pop", "Soul"]
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f16",
+    "nome": "The Chemical Brothers Live",
+    "artista": ["The Chemical Brothers"],
+    "data": {"$date":"2024-07-25T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Ippodromo SNAI San Siro, Milano", 
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [9.1239, 45.4782]
+      }
+      },
+    "biglietti_disponibili": [1000, 2000, 4000],
+    "prezzo_biglietti": [80.00, 60.00, 40.00],
+    "genere": "Big Beat"
+  },
+
+
+  {
+  "_id": "649f1d78c24e1d8a6c8d0f17",
+  "nome": "Gemitaiz QVC9 Tour",
+  "artista": "Gemitaiz",  
+  "data": {"$date":"2024-08-05T00:00:00+02:00"},
+  "luogo": {
+    "indirizzo": "Arenile di Bagnoli, Napoli",
+    "posizione" : {
+      "type": "Point",
+      "coordinates": [14.1744, 40.8199]
+      }
+    }, 
+  "biglietti_disponibili": [400, 800, 1500],
+  "prezzo_biglietti": [50.00, 40.00, 30.00],
+  "genere": "Rap"
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f18",
+    "nome": "Pinguini Tattici Nucleari Estate Giovani",
+    "artista": "Pinguini Tattici Nucleari",
+    "data": {"$date":"2024-08-10T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Arena del Mare, Genova",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [8.9139, 44.4114]
+        }
+      },
+    "biglietti_disponibili": [500, 1000, 2000],  
+    "prezzo_biglietti": [60.00, 50.00, 40.00],
+    "genere": "Indie Pop" 
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f19",
+    "nome": "Sfera Ebbasta Famoso Tour",  
+    "artista": "Sfera Ebbasta",
+    "data": {"$date":"2024-08-18T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Parco dei Principi, Rivazza", 
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [12.5139, 44.4939]
+        }
+      },
+    "biglietti_disponibili": [500, 1000, 2000, 4000],
+    "prezzo_biglietti": [70.00, 60.00, 50.00, 35.00], 
+    "genere": "Trap"
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f20",
+    "nome": "Zucchero World Wild Tour",
+    "artista": "Zucchero",
+    "data": {"$date":"2024-08-25T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Anfiteatro Camerini, Piazzola sul Brenta",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [11.7858, 45.5422] 
+        }
+      },
+    "biglietti_disponibili": [200, 400, 800],
+    "prezzo_biglietti": [100.00, 80.00, 60.00],
+    "genere": ["Blues", "Pop"]
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f21",
+    "nome": "Massimo Pericolo Stupido Sexy Tour",
+    "artista": "Massimo Pericolo",
+    "data": {"$date":"2024-09-05T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Carroponte, Sesto San Giovanni", 
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [9.2333, 45.5333]
+        }
+      },
+    "biglietti_disponibili": [200, 400, 800],
+    "prezzo_biglietti": [40.00, 30.00, 20.00],
+    "genere": "Rap"
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f22",
+    "nome": "Madame In Tour",
+    "artista": "Madame", 
+    "data": {"$date":"2024-09-10T00:00:00+02:00"}, 
+    "luogo": {
+      "indirizzo": "Piazza Grande, Palmanova",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [13.3086, 45.9047]
+        }
+      },
+    "biglietti_disponibili": [300, 600, 1200],
+    "prezzo_biglietti": [50.00, 40.00, 30.00],
+    "genere": ["Pop", "Rap"]
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f23",
+    "nome": "Muse Theory of Everything",
+    "artista": ["Muse"],
+    "data": {"$date":"2024-09-15T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Ippodromo delle Capannelle, Roma",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [12.5833, 41.8333]  
+        }
+      },
+    "biglietti_disponibili": [1000, 2000, 4000, 8000],
+    "prezzo_biglietti": [90.00, 70.00, 60.00, 40.00], 
+    "genere": "Rock Alternativo"
+  },
+
+  {
+      "_id": "649f1d78c24e1d8a6c8d0f24",
+      "nome": "Blanco Blu Celeste Tour",
+      "artista": "Blanco",
+      "data": {"$date":"2024-09-20T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Palazzetto dello Sport, Firenze",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [11.2814, 43.7875]
+          }
+        },
+      "biglietti_disponibili": [500, 1000, 2000],
+      "prezzo_biglietti": [60.00, 50.00, 40.00],
+      "genere": ["Pop", "Rap"]
+    },
+    
+    {
+      "_id": "649f1d78c24e1d8a6c8d0f25",
+      "nome": "Capo Plaza 20 Tour",
+      "artista": "Capo Plaza",
+      "data": {"$date":"2024-09-25T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Palapartenope, Napoli",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [14.2464, 40.8358]
+          }
+        },
+      "biglietti_disponibili": [300, 600, 1200],
+      "prezzo_biglietti": [50.00, 40.00, 30.00],
+      "genere": "Rap"
+    },
+    
+    {
+      "_id": "649f1d78c24e1d8a6c8d0f26",
+      "nome": "Articolo 31 Reunion",
+      "artista": ["J-Ax", "Dj Jad"],
+      "data": {"$date":"2024-10-05T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Fabrique, Milano",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [9.1885, 45.4523]
+          }
+        },
+      "biglietti_disponibili": [200, 400, 800],
+      "prezzo_biglietti": [80.00, 60.00, 40.00],
+      "genere": "Hip Hop"
+    },
+    
+    {
+      "_id": "649f1d78c24e1d8a6c8d0f27",
+      "nome": "Fedez & Francesca Michielin",
+      "artista": ["Fedez", "Francesca Michielin"],
+      "data": {"$date":"2024-10-10T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Palazzo dello Sport, Roma",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [12.4828, 41.9331]
+          }
+        },
+      "biglietti_disponibili": [500, 1000, 2000],
+      "prezzo_biglietti": [70.00, 60.00, 50.00],
+      "genere": ["Pop", "Rap"]
+    },
+    
+    {
+      "_id": "649f1d78c24e1d8a6c8d0f28",
+      "nome": "Frah Quintale Banzai Tour",
+      "artista": "Frah Quintale",
+      "data": {"$date":"2024-10-15T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Alcatraz, Milano",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [9.2094, 45.5075]
+          }
+        },
+      "biglietti_disponibili": [200, 400, 800],
+      "prezzo_biglietti": [40.00, 30.00, 25.00],
+      "genere": ["Indie Pop", "Rap"]
+    },
+    
+    {
+      "_id": "649f1d78c24e1d8a6c8d0f29",
+      "nome": "Fabri Fibra & Marracash Joint Tour",
+      "artista": ["Fabri Fibra", "Marracash"],
+      "data": {"$date":"2024-10-20T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Paladozza, Bologna",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [11.309598, 44.521141]
+          }
+        },
+      "biglietti_disponibili": [500, 1000, 2000],
+      "prezzo_biglietti": [60.00, 50.00, 40.00],
+      "genere": "Rap"
+    },
+    
+    {
+      "_id": "649f1d78c24e1d8a6c8d0f30",
+      "nome": "Ligabue 30 Anni in un Giorno",
+      "artista": "Luciano Ligabue",
+      "data": {"$date":"2024-07-10T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "RCF Arena, Reggio Emilia",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [10.631933, 44.723491]
+          }
+        },
+      "biglietti_disponibili": [1000, 2000, 4000, 8000],
+      "prezzo_biglietti": [120.00, 100.00, 80.00, 60.00],
+      "genere": "Rock"
+    },
+    
+    {
+      "_id": "649f1d78c24e1d8a6c8d0f31",
+      "nome": "Gazzelle Ok Tour",
+      "artista": "Gazzelle",
+      "data": {"$date":"2024-07-15T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Stadio Artemio Franchi, Firenze",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [11.282778, 43.780833]
+          }
+        },
+      "biglietti_disponibili": [500, 1000, 2000, 4000],
+      "prezzo_biglietti": [60.00, 50.00, 40.00, 30.00],
+      "genere": "Indie Pop"
+    },
+    
+    {
+      "_id": "649f1d78c24e1d8a6c8d0f32",
+      "nome": "Carl Brave Coraggio Live",
+      "artista": "Carl Brave",
+      "data": {"$date":"2024-07-20T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Pinewood Festival, L'Aquila",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [13.399722, 42.349722]
+          }
+        },
+      "biglietti_disponibili": [300, 600, 1200],
+      "prezzo_biglietti": [50.00, 40.00, 30.00],
+      "genere": ["Hip Hop", "Indie Pop"]
+    },
+    
+    {
+      "_id": "649f1d78c24e1d8a6c8d0f33",
+      "nome": "Gué Pequeno & Marracash Santeria Tour",
+      "artista": ["Gué Pequeno", "Marracash"],
+      "data": {"$date":"2024-07-25T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Castello Sforzesco, Vigevano",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [8.855556, 45.316667]
+          }
+        },
+      "biglietti_disponibili": [500, 1000, 2000],
+      "prezzo_biglietti": [60.00, 50.00, 40.00],
+      "genere": "Rap"
+    },
+    
+    {
+      "_id": "649f1d78c24e1d8a6c8d0f34",
+      "nome": "Ludovico Einaudi Underwater Live",
+      "artista": "Ludovico Einaudi",
+      "data": {"$date":"2024-07-30T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Parco Archeologico, Selinunte",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [12.8258, 37.5833]
+          }
+        },
+      "biglietti_disponibili": [200, 400, 800],
+      "prezzo_biglietti": [100.00, 80.00, 60.00],
+      "genere": "Musica Classica Contemporanea"
+    },
+
+    {
+      "_id": "649f1d78c24e1d8a6c8d0f35",
+      "nome": "Musica leggiadra",
+      "artista": ["Jovanotti", "Tiziano Ferro", "Marco Mengoni", "The Kolors"],
+      "data": {"$date":"2024-08-30T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Unipol Arena, Casalecchio di Reno",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [11.2776616, 44.4778505]
+          }
+        },
+      "biglietti_disponibili": [2000, 4000, 2800],
+      "prezzo_biglietti": [100.00, 80.00, 60.00],
+      "genere": ["Pop", "Rock", "Hip Hop"]
+    },
+
+    {
+      "_id": "649f1d78c24e1d8a6c8d0f36",
+      "nome": "TrapStars Live",
+      "artista": ["Sfera Ebbasta", "Tony Effe", "Side Baby", "Sapo Bully", "Drefgold", "Paky"],
+      "data": {"$date":"2024-09-21T00:00:00+02:00"},
+      "luogo": {
+        "indirizzo": "Stadio San Siro, Milano",
+        "posizione" : {
+          "type": "Point",
+          "coordinates": [9.123954, 45.478214]
+          }
+      },
+      "biglietti_disponibili": [8000, 9000, 12000, 15000],
+      "prezzo_biglietti": [200.00, 170.00, 120.00, 80.00],
+      "genere": ["Rock", "Rap", "Hip Hop", "Trap"]
+    
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f37",
+    "nome": "Sweet ol' Italy",
+    "artista": ["Kanye West", "Future", "Wiz Khalifa"],
+    "data": {"$date":"2024-09-29T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Stadio San Siro, Milano",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [9.123954, 45.478214]
+        }
+    },
+    "biglietti_disponibili": [8000, 9000, 12000, 15000],
+    "prezzo_biglietti": [300.00, 240.00, 190.00, 170.00],
+    "genere": ["Rock", "Rap", "Hip Hop", "Pop"]
+  
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f38",
+    "nome": "Pinguini Tattici Nucleari Jovanotti Estate Giovani",
+    "artista": ["Pinguini Tattici Nucleari", "Jovanotti"],
+    "data": {"$date":"2024-08-12T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Sottosopra, Diamante",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [15.82113, 39.67773]
+        }
+    },
+    "biglietti_disponibili": [200, 300, 150],
+    "prezzo_biglietti": [60.00, 40.00, 20.00],
+    "genere": ["Hip Hop", "Pop", "Indie Pop"]
+  
+  },
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f39",
+    "nome": "Indie Paradise",
+    "artista": ["Frah Quintale", "Calcutta"],
+    "data": {"$date":"2024-07-12T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Unipol Arena, Casalecchio di Reno",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [11.2776616, 44.4778505]
+        }
+    },
+    "biglietti_disponibili": [200, 700, 900],
+    "prezzo_biglietti": [60.00, 40.00, 20.00],
+    "genere": ["Indie", "Indie Pop", "Alternative"]
+  
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f40",
+    "nome": "Bruno Lucianò Superstar World Tour",
+    "artista": "Bruno Lucianò",
+    "data": {"$date":"2024-07-15T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Stadio San Siro, Milano",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [9.123954, 45.478214]
+        }
+    },
+    "biglietti_disponibili": [400, 700, 1500],
+    "prezzo_biglietti": [2000.00, 1400.00, 666.00],
+    "genere": ["Indie", "Indie Pop", "Alternative", "Hardcore", "Pop", "Heavy Metal", "Bruno", "Hard Trap"]
+  
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f41",
+    "nome": "Il coraggio di sognare",
+    "artista": ["Lucio Dalla", "Fabrizio De Andrè", "Pavarotti"],
+    "data": {"$date":"2024-09-15T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Gran Paradiso, Aosta",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [7.26720, 45.51782]
+        }
+    },
+    "biglietti_disponibili": [0, 0, 0],
+    "prezzo_biglietti": [0.00, 0.00, 0.00],
+    "genere": "Musica Classica"
+  
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f42",
+    "nome": "Vecchia leva",
+    "artista": ["Vasco Rossi", "Ligabue", "Gigi D'Alessio", "Zucchero"],
+    "data": {"$date":"2024-10-15T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Unipol Arena, Casalecchio di Reno",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [11.2776616, 44.4778505]
+        }
+    },
+    "biglietti_disponibili": [600, 1100, 1400],
+    "prezzo_biglietti": [60.00, 50.00, 30.00],
+    "genere": ["Rock", "Pop"]
+  
+  },
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f43",
+    "nome": "Simm fort",
+    "artista": ["Gigi D'Alessio", "Geolier", "Luchè", "Nino D'Angelo"],
+    "data": {"$date":"2024-10-15T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Ippodromo di Agnano, Napoli",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [14.16282,40.83553]
+        }
+    },
+    "biglietti_disponibili": [300, 400, 700, 500],
+    "prezzo_biglietti": [70.00, 60.00, 40.00, 35.00],
+    "genere": ["Neo Melodica", "Pop", "Rap", "Trap"]
+  },
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f44",
+    "nome": "Los ojos de la verdad",
+    "artista": "Chalino Sànchez",
+    "data": {"$date":"2024-09-15T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Gran Paradiso, Aosta",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [7.26720, 45.51782]
+        }
+    },
+    "biglietti_disponibili": [0, 0, 0],
+    "prezzo_biglietti": [0.00, 0.00, 0.00],
+    "genere": ["Corrido", "Narcocorrido"]
+
+  },
+
+
+  {
+    "_id": "649f1d78c24e1d8a6c8d0f45",
+    "nome": "Co'sang reunion",
+    "artista": ["Luchè", "Ntò"],
+    "data": {"$date": "2024-08-15T00:00:00+02:00"},
+    "luogo": {
+      "indirizzo": "Ippodromo di Agnano, Napoli",
+      "posizione" : {
+        "type": "Point",
+        "coordinates": [14.16282,40.83553]
+        }
+    },
+    "biglietti_disponibili": [300, 400, 700, 500],
+    "prezzo_biglietti": [50.00, 45.00, 35.00, 20.00],
+    "genere": ["Rap"]
+  }
+
+  ]
