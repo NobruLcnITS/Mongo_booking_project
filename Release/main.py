@@ -1,11 +1,5 @@
-from pymongo import MongoClient
-import os
 from colorama import Fore, Style 
-import time
-from get_coordinates import get_coordinates
 from filtercreators import *
-from datetime import datetime, date
-import re
 import hashlib
 from connectiondb import connection_collection, clear_screen
 from selctor import *
@@ -34,7 +28,7 @@ def add_user(username, password):
 def sign_up():
     global users_collection
     user = str(input('Inserisci il tuo nome: ').strip())
-    check= mongo_exists(user) # .find per cercare l'utente sul database
+    check= mongo_exists(user)
     if check==False and user!=' ':
         while True:
             password = input('Inserisci la password: ').strip()
@@ -96,7 +90,7 @@ def main():
               "1. Registrati\n"+
               "2. Login\n")
         
-        choice = int(input(f"{Fore.YELLOW}Inserisci il numero dell'opzione: {Style.RESET_ALL}"))
+        choice = input(f"{Fore.YELLOW}Inserisci il numero dell'opzione: {Style.RESET_ALL}")
         match choice:
             case 1:
                 sign_up()  

@@ -9,7 +9,7 @@ collection = db["Concerti"]
 def get_coordinates(place_name, max_attempts=3):
     geolocator = Nominatim(user_agent="MongoLoca")
     
-    for attempt in range(max_attempts):
+    for _ in range(max_attempts):
         try:
             location = geolocator.geocode(place_name)
             if location:

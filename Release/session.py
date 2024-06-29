@@ -1,6 +1,5 @@
 from colorama import Fore
 import time
-from get_coordinates import get_coordinates
 from filtercreators import *
 from connectiondb import connection_collection, clear_screen
 from selctor import *
