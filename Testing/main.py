@@ -84,3 +84,30 @@ def login():
         clear_screen()
         print('Dati non inseriti correttamente')
         return None
+    
+def main():
+    
+    clear_screen()
+   
+    print(f"{Fore.YELLOW}\nBenvenuto nel sistema TicketMania!{Fore.RESET}")
+
+    while True:
+        print("\nSeleziona un'opzione:\n"+
+              "1. Registrati\n"+
+              "2. Login\n")
+        
+        choice = int(input(f"{Fore.YELLOW}Inserisci il numero dell'opzione: {Style.RESET_ALL}"))
+        match choice:
+            case 1:
+                sign_up()  
+            case 2:
+                user = login()
+                if user != None: 
+                    utente_session(user)
+            case _:
+                clear_screen()
+                print("Opzione non valida. Riprova.")
+                continue
+
+if __name__ == "__main__":
+    main()

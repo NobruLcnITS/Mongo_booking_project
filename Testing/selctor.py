@@ -148,41 +148,43 @@ def select_date():
                 time.sleep(2)
                         
 def select_position():
-    global filters
-    while True:
+    global filtersf
+    filtro_trovato = False
+    while filtro_trovato==False:
         clear_screen()
         indirizzo = input("Inserisci l'indirizzo di tuo interesse, senza virgole: ")
-        raggio = input("Ora inserisci la distanza di kilometri massima dall'indirizzo: ")
-        raggio = raggio
-        if type(raggio) != int and type(raggio) != float:
-            print("Il raggio deve essere un numero, riprova!")
-            time.sleep(2)
-            continue
-        raggio = int(raggio) * 1000
-        lat, lon = get_coordinates(indirizzo, max_attempts=3)
-        # lat, lon = 45,32
-        if not (lat == 0 and lon == 0):
-            filtro = geo_checker(lon=lon, lat=lat, maxdistance=raggio)
-            filters["distanza"] = filtro
-            print(f"{Fore.GREEN}Indirizzo trovato e filtro aggiunto con successo!{Fore.RESET}")
-            time.sleep(3)
-            break
-        if (lat==0 and lon==0):
-            scelta = input("Indirizzo non trovato, vuoi riprovare? y/n \n")
-            if scelta.lower() in ["y", "sì", "si", "yes", "ok", "1"]:
+        while True:
+            raggio = input("Ora inserisci la distanza di kilometri massima dall'indirizzo: ")
+            try:
+                raggio = int(raggio) * 1000
+                lat, lon = get_coordinates(indirizzo, max_attempts=3)
+            # lat, lon = 45,32
+                if not (lat == 0 and lon == 0):
+                    filtro = geo_checker(lon=lon, lat=lat, maxdistance=raggio)
+                    filters["distanza"] = filtro
+                    print(f"{Fore.GREEN}Indirizzo trovato e filtro aggiunto con successo!{Fore.RESET}")
+                    time.sleep(3)
+                    filtro_trovato = True
+                    break
+                if (lat==0 and lon==0):
+                    scelta = input("Indirizzo non trovato, vuoi riprovare? y/n \n")
+                    if scelta.lower() in ["y", "sì", "si", "yes", "ok", "1"]:
+                        break
+                    else:
+                        print(f"{Fore.RED}Ritorno al menu principale...{Fore.RESET}")
+                        time.sleep(2)
+                        break
+                else:
+                    scelta = input("Non puoi sfruttare la ricerca se non sei connesso/a a internet, vuoi riprovare? y/n \n")
+                    if scelta.lower() in ["y", "sì", "si", "yes", "ok", "1"]:
+                        continue
+                    else:
+                        print(f"{Fore.RED}Ritorno al menu principale...{Fore.RESET}")
+                        time.sleep(2)
+                        break
+            except ValueError:
+                print("Devi inserire un numero!")
                 continue
-            else:
-                print(f"{Fore.RED}Ritorno al menu principale...{Fore.RESET}")
-                time.sleep(2)
-                break
-        else:
-            scelta = input("Non puoi sfruttare la ricerca se non sei connesso/a a internet, vuoi riprovare? y/n \n")
-            if scelta.lower() in ["y", "sì", "si", "yes", "ok", "1"]:
-                continue
-            else:
-                print(f"{Fore.RED}Ritorno al menu principale...{Fore.RESET}")
-                time.sleep(2)
-                break
             
 def select_soldout():
     global filters
