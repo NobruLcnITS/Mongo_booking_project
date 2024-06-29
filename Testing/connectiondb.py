@@ -1,8 +1,6 @@
-from pymongo import MongoClient
-from colorama import Fore, Style 
+from pymongo import MongoClient 
 import os
-#from utente import *
-        
+
 uri = "mongodb+srv://giorgiociampi:qODlA9DjoW2lpniv@cluster0.zfjgzzp.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 def connection_db():
@@ -15,7 +13,7 @@ def connection_db():
     except Exception as e:
         print(e)
         
-def connection_collection(collection): # concerti e utenti
+def connection_collection(collection): 
     global uri
     try:
         client = connection_db()

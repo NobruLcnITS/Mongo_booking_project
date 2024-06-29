@@ -1,12 +1,10 @@
-from pymongo import MongoClient
-import os
 from colorama import Fore
 import time
 from get_coordinates import get_coordinates
 from filtercreators import *
-from datetime import datetime, date
+from datetime import date
 import re
-from connectiondb import connection_db,connection_collection, clear_screen
+from connectiondb import clear_screen
 
 filters = {}
 
