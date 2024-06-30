@@ -2,12 +2,12 @@
 
 ### Programma in python per la prenotazioni di biglietti tramite MongoDB
 
-
-<img src="https://img.shields.io/badge/mongodb-%FFFFF.svg?&style=for-the-badge&logo=mongodb&logoColor=white">
-<img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
-<img src="https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white">
-<img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white">
-
+<div align="center">
+   <img src="https://img.shields.io/badge/mongodb-%FFFFF.svg?&style=for-the-badge&logo=mongodb&logoColor=white">
+   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue">
+   <img src="https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white">
+   <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white">
+</div>
 
 ---
 ![Logo TicketMania](https://github.com/NobruLcnITS/Mongo_booking_project/assets/168713245/b0ed8b73-fc6c-410c-ad8f-82f3e3b8fdbd)
@@ -284,7 +284,7 @@ MongoDB Compass è uno strumento GUI (Graphical User Interface) che permette di 
 3. **Esegui il codice**:
    
    - Esegui il seguente comando per avviare TicketMania:
-   
+
      ```sh
      python main.py
      ```
