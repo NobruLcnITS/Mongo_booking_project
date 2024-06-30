@@ -80,7 +80,7 @@ def login():
         return None
     
 def main():
-    
+    esci = False
     clear_screen()
    
     print(f"{Fore.YELLOW}\nBenvenuto nel sistema TicketMania!{Fore.RESET}")
@@ -92,12 +92,13 @@ def main():
         
         choice = input(f"{Fore.YELLOW}Inserisci il numero dell'opzione: {Style.RESET_ALL}")
         match choice:
-            case 1:
+            case "1":
                 sign_up()  
-            case 2:
+            case "2":
                 user = login()
                 if user != None: 
                     utente_session(user)
+                    break
             case _:
                 clear_screen()
                 print("Opzione non valida. Riprova.")

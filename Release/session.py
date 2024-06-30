@@ -70,7 +70,8 @@ def visualization_buy(user):
             
             if scelta.lower() == 'exit':
                 clear_screen()
-                break
+                filters.clear()
+                return False
             
             try:
                 clear_screen()
@@ -137,7 +138,7 @@ def visualization_buy(user):
                                                     {"$set": {f"biglietti_disponibili.{classe}": concerto["biglietti_disponibili"][classe]}}
                                                     )
                                                     transazione_completata = True
-                                                    time.sleep(4)
+                                                    time.sleep(3)
                                                     break
                                                 else:
                                                     print(f"\n{Fore.RED}Transazione non andata a buon fine. {Fore.RESET}")
@@ -157,7 +158,8 @@ def visualization_buy(user):
                                         if scelta.lower() in ["y", "sì", "si", "yes", "ok", "1"]:
                                             continue
                                         else:
-                                            break
+                                            filters.clear()
+                                            return False
                     else:
                         print(f"{Fore.LIGHTRED_EX}\nQuesto concerto è sold out, ma non preoccuparti, hai l'imbarazzo della scelta!{Fore.RESET}")
                         time.sleep(3)
@@ -169,7 +171,8 @@ def visualization_buy(user):
                 print(f"{Fore.RED}Input non valido. Inserisci un numero o 'exit' per uscire.{Fore.RESET}")
             scelta = input("Vuoi visualizzare di nuovo gli eventi? y/n \n")
             if scelta.lower() not in ["s", "si", "sì", "yes", "y", "1"]:
-                print(f"{Fore.GREEN}Grazie per aver usato TicketMania! Arrivederci!{Fore.RESET}")
+                print(f"{Fore.RED}Torno al menu principale...{Fore.RESET}")
+                time.sleep(1)
                 clear_screen()
                 break
             else:
@@ -188,6 +191,7 @@ def utente_session(user):
                         f"- 7. Per genere musicale \n"
                         f"- 8. Esegui la ricerca \n"
                         f"- 9. Visualizza i tuoi biglietti \n"
+                        f"- 10. Esci da TicketMania \n"
                         "\nNOTA: Scegliendo due volte lo stesso criterio, sovrascriverai quello settato precedentemente! \n\n"
                         )
         match scelta:
@@ -212,13 +216,19 @@ def utente_session(user):
                 
             case "8" | "vai" | "esegui" | "ok":
                 check = visualization_buy(user) 
-                if check is None:
-                    break
+                if check is False:
+                    continue
             
             case "9" | "biglietti" | "visualizza":
                 clear_screen()
                 show_tickets(user)
             
+            case "10" | "esci":
+                clear_screen()
+                print(f"{Fore.RED}Uscendo da TicketMania...{Fore.RESET}")
+                time.sleep(2)
+                break
+             
 
             
               
