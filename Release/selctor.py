@@ -129,7 +129,7 @@ def select_date():
                     clear_screen()
                     end_date = input("Il formato della data deve essere 'anno-mese-giorno': ")
                     if re.match(date_pattern, end_date):
-                        filtro = date_checker(start_date=start_date, end_date=end_date)
+                        filtro = date_checker(start_date=None, end_date=end_date)
                         filters["date"] = filtro
                         print(f"{Fore.GREEN}Filtro aggiunto con successo!{Fore.RESET}")
                         time.sleep(3)
