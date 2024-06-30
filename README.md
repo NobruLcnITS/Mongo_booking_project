@@ -36,13 +36,13 @@ L'applicazione permette inoltre di visualizzare i biglietti acquistati, tutti co
 
 ## Indice
 
-- <p align="right">(<a href="#Requisiti">Requisiti</a>)</p>
-- <p align="right">(<a href="#Installazione-e-configurazione-TicketMania">Installazione e configurazione TicketMania</a>)</p>
-- <p align="right">(<a href="#3A.-Installazione-di-Docker-Desktop,-installazione-dell'immagine-MongoDB,-creazione-di-container-e- collegamento-con-Python"> 3A. Installazione di Docker Desktop, installazione dell'immagine MongoDB, creazione di container e collegamento con Python</a>)</p>
-- <p align="right">(<a href="#3B.-Apertura-di-un-server-MongoDB-cloud-e-collegamento-con-Python."> 3B. Apertura di un server MongoDB cloud e collegamento con Python.</a>)</p>
-- <p align="right">(<a href="#3C.-Uso-di-un-server-MongoDB-cloud-esistente"> 3C. Uso di un server MongoDB cloud esistente</a>)</p>
-- <p align="right">(<a href="#4.-Installazione-di-MongoDB-Compass-e-aggiunta-del-database">4. Installazione di MongoDB Compass e aggiunta del database</a>)</p>
-- <p align="right">(<a href="#5.-Installazione-delle-librerie Python">5. Installazione delle librerie Python</a>)</p>
+- <p align="left"><a href="#Requisiti">Requisiti</a></p>
+- <p align="left"><a href="#Installazione-e-configurazione-TicketMania">Installazione e configurazione TicketMania</a></p>
+- <p align="left"><a href="#3A.-Installazione-di-Docker-Desktop,-installazione-dell'immagine-MongoDB,-creazione-di-container-e- collegamento-con-Python"> 3A. Installazione di Docker Desktop, installazione dell'immagine MongoDB, creazione di container e collegamento con Python</a></p>
+- <p align="left"><a href="#3B.-Apertura-di-un-server-MongoDB-cloud-e-collegamento-con-Python."> 3B. Apertura di un server MongoDB cloud e collegamento con Python.</a></p>
+- <p align="left"><a href="#3C.-Uso-di-un-server-MongoDB-cloud-esistente"> 3C. Uso di un server MongoDB cloud esistente</a></p>
+- <p align="left"><a href="#4.-Installazione-di-MongoDB-Compass-e-aggiunta-del-database">4. Installazione di MongoDB Compass e aggiunta del database</a></p>
+- <p align="left"><a href="#5.-Installazione-delle-librerie Python">5. Installazione delle librerie Python</a></p>
 
 ## Requisiti
 
