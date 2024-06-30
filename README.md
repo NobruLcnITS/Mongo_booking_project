@@ -10,10 +10,12 @@
 </div>
 
 ---
-![Logo TicketMania](https://github.com/NobruLcnITS/Mongo_booking_project/assets/168713245/b0ed8b73-fc6c-410c-ad8f-82f3e3b8fdbd)
----
+<div align="center">
+  <img src="https://github.com/NobruLcnITS/Mongo_booking_project/assets/168713245/b0ed8b73-fc6c-410c-ad8f-82f3e3b8fdbd" alt="RedisChat Logo" />
+</div>
+<hr>
 
-TicketMania è un'applicazione efficiente e sicura per prenotare concerti che utilizza MongoDB. <br>
+TicketMania è un'applicazione efficiente e sicura per prenotare biglietti per i concerti, e utilizza MongoDB. <br>
 
 Con TicketMania, è possibile, una volta registrati ed effettuato il login, ricercare i concerti disponibili sulla base di vari filtri, cumulabili tra loro. 
 Questi sono: <b>
