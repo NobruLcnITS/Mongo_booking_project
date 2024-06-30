@@ -16,11 +16,11 @@
 </div>
 <hr>
 
-TicketMania è un'applicazione efficiente e sicura per prenotare biglietti per i concerti, e utilizza MongoDB. <br>
+TicketMania è un'applicazione efficiente e sicura per comprare biglietti di concerti, eventi e teatro.
+TicketMania utilizza come database MongoDB, quest'ultimo offre una gestione migliore e più efficente rispetto ai concorrenti. <br>
 
-Con TicketMania, è possibile, una volta registrati ed effettuato il login, ricercare i concerti disponibili sulla base di vari filtri, cumulabili tra loro. 
-Questi sono: <b>
-
+Con TicketMania, è possibile, una volta registrati ed effettuato il login, ricercare i concerti disponibili sulla base di vari filtri,cumulabili tra loro.
+Questi sono:  <b>
 
 - Nome del concerto
 - Artista presente
@@ -31,11 +31,18 @@ Questi sono: <b>
 - Genere musicale
 </b> 
 <br>
+L'applicazione permette inoltre di visualizzare i biglietti acquistati, tutti con il proprio identificativo univoco.
 <br>
 
-L'applicazione permette inoltre di visualizzare i biglietti acquistati, tutti con un identificativo unico.
-<br>
-Questo viene generato a partire dalle iniziali del concerto, il tipo di biglietto, la data e cinque numeri casuali, che non possono ripetersi per lo stesso spettacolo.
+## Indice
+
+- <p align="right">(<a href="#Requisiti">Requisiti</a>)</p>
+- <p align="right">(<a href="#Installazione-e-configurazione-TicketMania">Installazione e configurazione TicketMania</a>)</p>
+- <p align="right">(<a href="#3A.-Installazione-di-Docker-Desktop,-installazione-dell'immagine-MongoDB,-creazione-di-container-e- collegamento-con-Python"> 3A. Installazione di Docker Desktop, installazione dell'immagine MongoDB, creazione di container e collegamento con Python</a>)</p>
+- <p align="right">(<a href="#3B.-Apertura-di-un-server-MongoDB-cloud-e-collegamento-con-Python."> 3B. Apertura di un server MongoDB cloud e collegamento con Python.</a>)</p>
+- <p align="right">(<a href="#3C.-Uso-di-un-server-MongoDB-cloud-esistente"> 3C. Uso di un server MongoDB cloud esistente</a>)</p>
+- <p align="right">(<a href="#4.-Installazione-di-MongoDB-Compass-e-aggiunta-del-database">4. Installazione di MongoDB Compass e aggiunta del database</a>)</p>
+- <p align="right">(<a href="#5.-Installazione-delle-librerie Python">5. Installazione delle librerie Python</a>)</p>
 
 ## Requisiti
 
