@@ -79,24 +79,24 @@ def visualization_buy(user):
                 if 0 <= indice < len(concerti):
                     concerto = concerti[indice]
                     print(f"{Fore.YELLOW}\nDettagli del concerto:{Fore.RESET}\n")
-                    print(f"Nome: {concerto["nome"]}")
+                    print(f"Nome: {concerto['nome']}")
                     
                     if isinstance(concerto["artista"], list):
-                        print(f"Artisti: {', '.join(concerto["artista"])}")
+                        print(f"Artisti: {', '.join(concerto['artista'])}")
                     else:
                         print(f"Artista: {concerto['artista']}")
                     
-                    print(f"Data: {concerto["data"].strftime('%Y-%m-%d')}")
-                    print(f"Luogo: {concerto["luogo"]['indirizzo']}")
+                    print(f"Data: {concerto['data'].strftime('%Y-%m-%d')}")
+                    print(f"Luogo: {concerto['luogo']['indirizzo']}")
                     
                     if isinstance(concerto["genere"], list):
-                        print(f"Generi: {', '.join(concerto["genere"])}")
+                        print(f"Generi: {', '.join(concerto['genere'])}")
                     else:
-                        print(f"Genere: {concerto["genere"]}")
+                        print(f"Genere: {concerto['genere']}")
                     
                     biglietti_disponibili_tot = sum(concerto["biglietti_disponibili"])
                     
-                    print(f"Prezzo: da €{min(concerto["prezzo_biglietti"])} a €{max(concerto["prezzo_biglietti"])}")
+                    print(f"Prezzo: da €{min(concerto['prezzo_biglietti'])} a €{max(concerto['prezzo_biglietti'])}")
                     print(f"Biglietti disponibili: {biglietti_disponibili_tot}")
                     
                     if biglietti_disponibili_tot > 0:
@@ -105,7 +105,7 @@ def visualization_buy(user):
                             clear_screen()
                             print(f"{Fore.LIGHTYELLOW_EX}Ecco i prezzi per classe: \n {Fore.RESET}")
                             for i in range(len(concerto["biglietti_disponibili"])):
-                                print(f"Classe {i+1}: Prezzo: {Fore.YELLOW}{concerto["prezzo_biglietti"][i]}€, Disponibilità: {concerto["biglietti_disponibili"][i]}pz{Fore.RESET}")
+                                print(f"Classe {i+1}: Prezzo: {Fore.YELLOW}{concerto['prezzo_biglietti'][i]}€, Disponibilità: {concerto['biglietti_disponibili'][i]}pz{Fore.RESET}")
                             scelta = input(f"{Fore.YELLOW}\nVuoi acquistare dei biglietti? y/n \n{Fore.RESET}")
                             transazione_completata = False
                             transazione_annullata = False
@@ -120,7 +120,7 @@ def visualization_buy(user):
                                                 classe = int(classe) - 1
                                                 biglietti_tot_classe = int(concerto["biglietti_disponibili"][classe])
                                                 if biglietti_tot_classe < quantità:
-                                                    print(f"{Fore.RED}Non ci sono abbastanza biglietti in questa classe, dato che ne abbiamo solo {concerto["biglietti_disponibili"][classe]}, ci dispiace! {Fore.RESET}")
+                                                    print(f"{Fore.RED}Non ci sono abbastanza biglietti in questa classe, dato che ne abbiamo solo {concerto['biglietti_disponibili'][classe]}, ci dispiace! {Fore.RESET}")
                                                     transazione_annullata = True
                                                     time.sleep(4)
                                                     break
@@ -135,7 +135,7 @@ def visualization_buy(user):
                                                     concerto["biglietti_disponibili"][classe] -= quantità
                                                     collection.update_one(
                                                     {"_id": concerto["_id"]},
-                                                    {"$set": {f"biglietti_disponibili.{classe}": concerto["biglietti_disponibili"][classe]}}
+                                                    {"$set": {f"biglietti_disponibili.{classe}": concerto['biglietti_disponibili'][classe]}}
                                                     )
                                                     transazione_completata = True
                                                     time.sleep(3)
