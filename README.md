@@ -17,9 +17,9 @@
 <hr>
 
 TicketMania è un'applicazione efficiente e sicura per comprare biglietti di concerti, eventi e teatro.
-TicketMania utilizza come database MongoDB, quest'ultimo offre una gestione migliore e più efficente rispetto ai concorrenti. <br>
+TicketMania utilizza come database MongoDB, quest'ultimo offre una gestione migliore e più efficiente rispetto ai concorrenti. <br>
 
-Con TicketMania, è possibile, una volta registrati ed effettuato il login, ricercare i concerti disponibili sulla base di vari filtri,cumulabili tra loro.
+Con TicketMania, è possibile, una volta registrati ed effettuato il login, ricercare i concerti disponibili sulla base di vari filtri, cumulabili fra loro.
 Questi sono:  <b>
 
 - Nome del concerto
