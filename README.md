@@ -17,9 +17,9 @@
 <hr>
 
 TicketMania è un'applicazione efficiente e sicura per comprare biglietti di concerti, eventi e teatro.
-TicketMania utilizza come database MongoDB, quest'ultimo offre una gestione migliore e più efficente rispetto ai concorrenti. <br>
+TicketMania utilizza come database MongoDB, quest'ultimo offre una gestione migliore e più efficiente rispetto ai concorrenti. <br>
 
-Con TicketMania, è possibile, una volta registrati ed effettuato il login, ricercare i concerti disponibili sulla base di vari filtri,cumulabili tra loro.
+Con TicketMania, è possibile, una volta registrati ed effettuato il login, ricercare i concerti disponibili sulla base di vari filtri, cumulabili fra loro.
 Questi sono:  <b>
 
 - Nome del concerto
@@ -38,11 +38,12 @@ L'applicazione permette inoltre di visualizzare i biglietti acquistati, tutti co
 
 - <p align="left"><a href="#Requisiti">Requisiti</a></p>
 - <p align="left"><a href="#Installazione-e-configurazione-TicketMania">Installazione e configurazione TicketMania</a></p>
-- <p align="left"><a href="#3A.-Installazione-di-Docker-Desktop,-installazione-dell'immagine-MongoDB,-creazione-di-container-e- collegamento-con-Python"> 3A. Installazione di Docker Desktop, installazione dell'immagine MongoDB, creazione di container e collegamento con Python</a></p>
-- <p align="left"><a href="#3B.-Apertura-di-un-server-MongoDB-cloud-e-collegamento-con-Python."> 3B. Apertura di un server MongoDB cloud e collegamento con Python.</a></p>
-- <p align="left"><a href="#3C.-Uso-di-un-server-MongoDB-cloud-esistente"> 3C. Uso di un server MongoDB cloud esistente</a></p>
-- <p align="left"><a href="#4.-Installazione-di-MongoDB-Compass-e-aggiunta-del-database">4. Installazione di MongoDB Compass e aggiunta del database</a></p>
-- <p align="left"><a href="#5.-Installazione-delle-librerie Python">5. Installazione delle librerie Python</a></p>
+- <p align="left"><a href="#3A-Installazione-di-Docker-Desktop,-installazione-dell'immagine-MongoDB,-creazione-di-container-e- collegamento-con-Python"> 3A. Installazione di Docker Desktop, installazione dell'immagine MongoDB, creazione di container e collegamento con Python</a></p>
+- <p align="left"><a href="#3B-Apertura-di-un-server-MongoDB-cloud-e-collegamento-con-Python."> 3B. Apertura di un server MongoDB cloud e collegamento con Python.</a></p>
+- <p align="left"><a href="#3C-Uso-di-un-server-MongoDB-cloud-esistente"> 3C. Uso di un server MongoDB cloud esistente</a></p>
+- <p align="left"><a href="#4-Installazione-di-MongoDB-Compass-e-aggiunta-del-database">4. Installazione di MongoDB Compass e aggiunta del database</a></p>
+- <p align="left"><a href="#5-Installazione-delle-librerie Python">5. Installazione delle librerie Python</a></p>
+- <p align="left"><a href="#6-Avvio-di-TicketMania">6. Avvio di TicketMania</a></p>
 
 ## Requisiti
 
@@ -93,7 +94,7 @@ Per avviare l'applicazione, è necessario/preferibile avere:
 
 ---
 
-### 3A. Installazione di Docker Desktop, installazione dell'immagine MongoDB, creazione di container e collegamento con Python.
+### 3A Installazione di Docker Desktop, installazione dell'immagine MongoDB, creazione di container e collegamento con Python.
 
 *Solo nel caso si voglia eseguire TicketMania in locale*
 
@@ -150,7 +151,7 @@ Per avviare l'applicazione, è necessario/preferibile avere:
 <p align="right">(<a href="#readme-top">torna in cima</a>)</p>
 
 ---
-### 3B. Apertura di un server MongoDB cloud e collegamento con Python.
+### 3B Apertura di un server MongoDB cloud e collegamento con Python.
 
 *Solo nel caso si voglia utilizzare MongoDB da host per altri utenti*
 
@@ -184,7 +185,7 @@ Per avviare l'applicazione, è necessario/preferibile avere:
 
 ---
 
-### 3C. Uso di un server MongoDB cloud esistente
+### 3C Uso di un server MongoDB cloud esistente
 
 *Solo nel caso si voglia utilizzare un database MongoDB già esistente di cui si conoscono i dettagli di connessione*
 
@@ -219,7 +220,7 @@ Per avviare l'applicazione, è necessario/preferibile avere:
 
 ---
 
-### 4. Installazione di MongoDB Compass e aggiunta del database
+### 4 Installazione di MongoDB Compass e aggiunta del database
 
 *Opzionale, programma utile per eseguire test sui database e visualizzare i dati*
 
@@ -255,7 +256,7 @@ MongoDB Compass è uno strumento GUI (Graphical User Interface) che permette di 
 ---
 
 
-### 5. Installazione delle librerie Python
+### 5 Installazione delle librerie Python
 
 1. **Apri il terminale**:
    - Su Windows, puoi usare il prompt dei comandi o PowerShell.
@@ -276,7 +277,7 @@ MongoDB Compass è uno strumento GUI (Graphical User Interface) che permette di 
 ---
 
 
-### 6. Avvio di TicketMania
+### 6 Avvio di TicketMania
 
 1. **Cambio directory**
    - Apri il terminale e tramite `cd yo/ur/path` accedi alla cartella dove hai clonato la repository di GitHub.
